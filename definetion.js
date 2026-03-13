@@ -14,4 +14,8 @@
     6. Multiplayer games.
 
     NodeJs allow you to build complex and Powerfull application.
+
+    Summary: 
+     1. It's not a language, it's not a framework.
+     2. capable of executing javesript code outside the browser.
 */
