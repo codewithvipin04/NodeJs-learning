@@ -8,8 +8,17 @@
    Processes stream the data in chunks as they arrive instead of waiting 
    for the entire data to be available before processing.
 
+   Stream is infect a built-in Node module which inherits from the event emitter class.
+
    Exp: Watching a video on u-tube.
    the data arrives in chunks and you watch in chunks while the rest of data arrives over a time.
+
+   Types of Streams:
+   1. Readable Stream
+   2. Writable Stream
+   3. Duplex Stream - both Readable and Writable , Exp - Sockets.
+   4. Transform Stream - can modify or Transform data as It is written and read.
+   Exp4: File compression - you can write compressed data and read de-compressed data.
 
 
    Buffer: 
